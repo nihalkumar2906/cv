@@ -1,0 +1,174 @@
+/* THIS CSS FILE CONTAINS IMPORTANT NOTES. GO THROUGH THIS FILE CAREFULLY. */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  text-align: center;
+}
+
+/*                    NOTES
+====================================================
+1. Font Size : 16px = 1em = 100% = 1rem.
+2. Always use 'rem' (Recommended).
+3. Because 'em' or '%' add up from different tags.
+====================================================
+*/
+
+h1 {
+  color: #10b0ee;
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  line-height: 4rem;
+  margin: 1.2rem auto;
+}
+
+h2 {
+  color: #10b0ee;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #0b759d;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+}
+
+hr {
+  border-color: #c9c9c9;
+  border-style: dotted none none;
+  border-width: 6px;
+  margin: 100px auto;
+  width: 8%;
+}
+
+.top-container {
+  background-color: #90d6ff;
+  padding-top: 100px;
+  position: relative;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 250px;
+  left: 200px;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
+.skill-row {
+  margin: 70px auto; /* In Clockwise sense, starting from Top. */
+  text-align: left;
+  width: 50%;
+}
+
+.contact-message {
+  margin: 40px auto;
+  width: 50%;
+}
+
+.contact-me-button {
+  background-color: #10b0ee;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  font-family: 'Varela Round', sans-serif;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.contact-me-button:hover {
+  background-color: #0b759d;
+}
+
+.bottom-container {
+  background-color: #b3dff9;
+  padding: 60px 0 20px;
+}
+
+.footer-link {
+  color: #10b0ee;
+  margin: 0 30px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #0b759d;
+}
+
+.attribution {
+  color: #40514E;
+  line-height: 2;
+  margin-top: 50px;
+}
+
+.attribution-link {
+  color: #10b0ee;
+  text-decoration: none;
+}
+
+.attribution-link:hover {
+  color: #0b759d;
+}
+
+.copyright {
+  margin-top: 40px;
+}
+
+/*                         NOTES
+============================================================
+1. Use 'float' only for wrapping text.
+2. Avoid using 'float' wherever possible.
+3. Do not use 'float' for positioning.
+4. 'clear' is like anti-float.
+============================================================
+*/
+
+.web-dev-img {
+  float: left;
+  margin-right: 30px;
+  width: 25%; /* Width is 25% of its parent, i.e., .skill-row */
+}
+
+.digital-marketing-img {
+  float: right;
+  margin-left: 30px;
+  width: 25%; /* Width is 25% of its parent, i.e., .skill-row */
+}
+
+/*
+
+.web-dev-description {
+  clear: left;
+}
+
+.digital-marketing-description {
+  clear: right;
+}
+
+*/
