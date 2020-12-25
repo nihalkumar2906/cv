@@ -124,7 +124,8 @@ hr {
 .attribution {
   color: #40514E;
   line-height: 2;
-  margin-top: 50px;
+  margin: 3rem auto;
+  width: 50%;
 }
 
 .attribution-link {
@@ -137,7 +138,8 @@ hr {
 }
 
 .copyright {
-  margin-top: 40px;
+  margin: auto;
+  width: 50%;
 }
 
 /*                         NOTES
